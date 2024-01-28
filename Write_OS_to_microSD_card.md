@@ -1,3 +1,8 @@
+Raspberry Pi 4 used to be able to install the OS onto a microSD card directly from the internet using
+[Network Install](https://www.raspberrypi.com/documentation/computers/getting-started.html#install-over-the-network),
+without the need for another computer. However, this is not yet available for Raspberry Pi 5. So we will need another PC
+and a way to read/write to a microSD card.
+
 In order to write the OS to a microSD card, use 
 [Raspberry Pi Imager](https://www.raspberrypi.com/documentation/computers/getting-started.html#install-using-imager)
 on a Windows, Mac, or Linux PC:
@@ -36,3 +41,6 @@ on a Windows, Mac, or Linux PC:
    ![Wait](screenshots/install_os/rpi_writing.png?raw=true "Writing")
 9. Select "Continue" when it says you can now remove the SD card from the reader
    ![Select "Continue"](screenshots/install_os/rpi_write-successful.png?raw=true "Write Successful")
+
+After that, simply insert the microSD card into the Raspberry Pi 5 and turn it on. It will finish installing the OS,
+and then reboot. 
