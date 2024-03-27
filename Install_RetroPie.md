@@ -73,7 +73,7 @@ The folder structure should be like below:
 ```bash
 retropie-mount/
                nes/
-                  super-marios.rom
+                  super-mario.rom
 
                snes/
                    ...
