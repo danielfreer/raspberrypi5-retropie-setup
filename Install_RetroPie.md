@@ -40,5 +40,48 @@ and installing the bash welcome tweak. This again is in effort to set everything
    ![](./screenshots/install_retropie/retropie-setup_bashwelcometweak_02.png)
    ![](./screenshots/install_retropie/retropie-setup_bashwelcometweak_03.png)
 
+
+10. (Optional) Install usbromservice
+
+By installing and enabling usbromservice, you can for example use ROMs from a USB thumb drive. 
+
+Select ``manage packages``
+
+![](screenshots/install_retropie/retropie_manage_packages.png)
+
+Select ``Manage optional packages``
+
+![](screenshots/install_retropie/retropie_manage_optional_packages.png)
+
+Scroll all the way down to `ùsbromservice```
+and choose to install it.
+
+Now configure it by selecting the same package.
+
+
+![](screenshots/install_retropie/retropie_usbromservice_configuration.png)
+
+
+Select ``enable USB ROM Service scripts``
+
+![](screenshots/install_retropie/retropie_enable_usbromservice.png)
+
+
+To boot games from the USB, create a folder called 'retropie-mount' with on the USB drive.
+
+The folder structure should be like below:
+```bash
+retropie-mount/
+               nes/
+                  super-marios.rom
+
+               snes/
+                   ...
+                   ...
+
+```
+
+
+
 At this point, you can exit the RetroPie-Setup Script, and reboot. If everything works, you should now have a mostly
 working RetroPie setup. There will likely need to be additional tweaks and cores to install in order to play everything.
